@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		661365DC2079DFDE007A5D3B /* tokeiyou.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 661365DB2079DFDE007A5D3B /* tokeiyou.jpeg */; };
+		661365E02079E5CF007A5D3B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 661365DF2079E5CF007A5D3B /* icon.png */; };
 		66D16807204A355E000BF1A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D16806204A355E000BF1A9 /* AppDelegate.swift */; };
 		66D16809204A355E000BF1A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D16808204A355E000BF1A9 /* ViewController.swift */; };
 		66D1680C204A355E000BF1A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D1680A204A355E000BF1A9 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		661365DB2079DFDE007A5D3B /* tokeiyou.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tokeiyou.jpeg; path = ../../tokeiyou.jpeg; sourceTree = "<group>"; };
+		661365DF2079E5CF007A5D3B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		66D16803204A355E000BF1A9 /* Count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Count.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D16806204A355E000BF1A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66D16808204A355E000BF1A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 		66D16805204A355E000BF1A9 /* Count */ = {
 			isa = PBXGroup;
 			children = (
+				661365DF2079E5CF007A5D3B /* icon.png */,
+				661365DB2079DFDE007A5D3B /* tokeiyou.jpeg */,
 				66D16806204A355E000BF1A9 /* AppDelegate.swift */,
 				66D16808204A355E000BF1A9 /* ViewController.swift */,
 				66D1680A204A355E000BF1A9 /* Main.storyboard */,
@@ -233,7 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				66D16811204A355E000BF1A9 /* LaunchScreen.storyboard in Resources */,
+				661365E02079E5CF007A5D3B /* icon.png in Resources */,
 				66D1680E204A355E000BF1A9 /* Assets.xcassets in Resources */,
+				661365DC2079DFDE007A5D3B /* tokeiyou.jpeg in Resources */,
 				66D1680C204A355E000BF1A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,12 +435,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JB2SDQGN3;
 				INFOPLIST_FILE = Count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Count;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Counts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -441,12 +450,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JB2SDQGN3;
 				INFOPLIST_FILE = Count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Count;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Counts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
