@@ -23,10 +23,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func plus(){
-        number = number + 1
-        label.text = String(number)
-        
+    func changeColor() {
         if number >= 10 {
             label.textColor = UIColor.red
         }
@@ -36,23 +33,20 @@ class ViewController: UIViewController {
         else {
             label.textColor = UIColor.white
         }
+    }
+    
+    @IBAction func plus(){
+        number = number + 1
+        label.text = String(number)
         
+        changeColor()
     }
     
     @IBAction func minus(){
         number = number - 1
         label.text = String(number)
         
-        if number >= 10 {
-            label.textColor = UIColor.red
-        }
-        else if number <= -10 {
-            label.textColor = UIColor.blue
-        }
-        else {
-            label.textColor = UIColor.white
-        }
-        
+        changeColor()
     }
     
     @IBAction func clear(){
@@ -66,16 +60,7 @@ class ViewController: UIViewController {
         
         label.text = String(number)
         
-        if number >= 10 {
-            label.textColor = UIColor.red
-        }
-        else if number <= -10 {
-            label.textColor = UIColor.blue
-        }
-        else {
-            label.textColor = UIColor.white
-        }
-        
+        changeColor()
     }
     
     @IBAction func division2(){
@@ -83,16 +68,7 @@ class ViewController: UIViewController {
         
         label.text = String(number)
         
-        if number >= 10 {
-            label.textColor = UIColor.red
-        }
-        else if number <= -10 {
-            label.textColor = UIColor.blue
-        }
-        else {
-            label.textColor = UIColor.white
-        }
-        
+        changeColor()
     }
     
 
